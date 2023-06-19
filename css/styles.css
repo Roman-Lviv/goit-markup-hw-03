@@ -1,0 +1,295 @@
+:root {
+  --primary-brand-color: #4D5AE5;
+  --body-text-color: #434455;
+  --dark-color: #2E2F42;
+  --white-background-color: #FFFFFF;
+  --light-mode-color: #F4F4FD;
+  --pressed-state-color: #404BBF;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--body-text-color);
+    background-color: var(--white-background-color);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--pressed-state-color);
+}
+
+.link:hover {
+  color: var(--pressed-state-color);
+}
+
+.link:focus {
+  color: var(--pressed-state-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/**
+  |============================
+  | CSS Таблиця STUDIO
+  |============================
+*/
+
+.weblogo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+
+.contact-data {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+}
+
+.adres-menu {
+  color: var(--body-text-color);
+}
+
+.studiologoheader {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--dark-color);
+}
+
+.weblogofooter {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-brand-color);
+}
+
+.studiologofooter {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--light-mode-color);
+}
+
+.section-hero {
+  background: var(--dark-color);
+}
+
+.btn-hero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand-color);
+  cursor: pointer;
+  color: var(--white-background-color);
+}
+
+.btn-hero:hover {
+  background-color: var(--pressed-state-color);
+}
+
+.btn-hero:focus {
+  background-color: var(--pressed-state-color);
+}
+
+.hero-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-background-color);
+}
+
+.hero-menu {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.hero-menu:focus {
+  color: var(--pressed-state-color);
+}
+
+.meil-header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+}
+
+.tel-header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+}
+
+.title-page {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.title-text-on {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.title-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+  
+}
+
+.title-text-portfolio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.weblogofooter {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--primary-brand-color);
+ }
+
+.studiologoheader {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--dark-color);
+ }
+
+.studiologofooter {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--light-mode-color);
+}
+
+.title-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-mode-color);
+}
+
+.section-what {
+  background-color: var(--light-mode-color);
+}
+
+.section-team {
+  background-color: var(--light-mode-color);
+}
+
+.catalog {
+  background-color: var(--white-background-color);
+}
+
+.footer-bag {
+  background-color: var(--dark-color);
+}
+
+.catalog-portfolio {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+
+}
+
+.catalog-portfolio:hover {
+  color: var(--pressed-state-color);
+}
+
+.catalog-portfolio:focus {
+  color: var(--pressed-state-color);
+}
+
+.btn-portfolio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  background-color: var(--light-mode-color);
+  color: var(--primary-brand-color);
+}
+
+.btn-portfolio:hover {
+  background-color: var(--pressed-state-color);
+  color: var(--white-background-color);
+}
+.btn-portfolio:focus {
+  background-color: var(--pressed-state-color);
+  color: var(--white-background-color);
+}
+
+.adres-portfolio {
+  font-style: normal;
+}
+
+.adres-portfolio:hover {
+  color: var(--pressed-state-color);
+}
+
+.adres-portfolio:focus {
+  color: var(--pressed-state-color);
+}
