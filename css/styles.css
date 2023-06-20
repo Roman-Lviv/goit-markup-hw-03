@@ -45,6 +45,7 @@ img {
   --white-background-color: #FFFFFF;
   --light-mode-color: #F4F4FD;
   --pressed-state-color: #404BBF;
+  --blue-button: #4d5ae5;
 }
 
 body {
@@ -135,6 +136,7 @@ body {
 
 .section-hero {
   background: var(--dark-color);
+  padding: 188px 0;
 }
 
 .btn-hero {
@@ -142,9 +144,14 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--primary-brand-color);
   cursor: pointer;
   color: var(--white-background-color);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--blue-button); 
+  border-radius: 4px;
 }
 
 .btn-hero:hover {
@@ -163,6 +170,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background-color);
+  max-width: 496px;
 }
 
 .hero-menu {
