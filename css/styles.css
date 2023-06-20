@@ -31,7 +31,7 @@ img {
 /*________________________________________________________*/
 .container {
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -173,7 +173,8 @@ body {
   color: var(--dark-color);
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .hero-menu:focus {
@@ -359,5 +360,4 @@ body {
 .menu {
   display: flex;
   align-items: center;
-
 }
