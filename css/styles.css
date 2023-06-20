@@ -87,9 +87,6 @@ body {
   text-transform: uppercase;
   color: var(--primary-brand-color);
   margin-right: 76px;
-  display: flex; 
-  gap: 40px;
-
 }
 
 .contact-data {
@@ -123,6 +120,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--primary-brand-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .studiologofooter {
@@ -278,6 +277,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-mode-color);
+  max-width: 264px;
 }
 
 .section-what {
@@ -294,6 +294,7 @@ body {
 
 .footer-bag {
   background-color: var(--dark-color);
+  padding: 100px 0;
 }
 
 .catalog-portfolio {
