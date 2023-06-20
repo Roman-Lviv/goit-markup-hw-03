@@ -1,3 +1,39 @@
+/**
+  |============================
+  | RESET
+  |============================
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+/*________________________________________________________*/
+.container {
+  width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*________________________________________________________*/
 :root {
   --primary-brand-color: #4D5AE5;
   --body-text-color: #434455;
@@ -292,4 +328,8 @@ body {
 
 .adres-portfolio:focus {
   color: var(--pressed-state-color);
+}
+
+.portfolio-border {
+  border: 1px solid #E7E9FC;
 }
