@@ -87,6 +87,8 @@ body {
   text-transform: uppercase;
   color: var(--primary-brand-color);
   margin-right: 76px;
+  display: flex; 
+  gap: 40px;
 
 }
 
