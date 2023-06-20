@@ -25,9 +25,12 @@ button {
   font-family: inherit;
   cursor: pointer;
 }
+img {
+  display: block;
+}
 /*________________________________________________________*/
 .container {
-  width: 1128px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -82,6 +85,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
+  margin-right: 76px;
+
 }
 
 .contact-data {
@@ -93,6 +98,9 @@ body {
 
 .adres-menu {
   color: var(--body-text-color);
+  display: flex;
+  gap: 40px;
+
 }
 
 .studiologoheader {
@@ -162,6 +170,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .hero-menu:focus {
@@ -332,4 +343,20 @@ body {
 
 .portfolio-border {
   border: 1px solid #E7E9FC;
+}
+
+.heder-studio {
+  border-bottom: 1px solid #e7e9fc
+}
+
+.heder-past {
+  display: flex; 
+  margin: 0;
+  padding: 0 15px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+
 }
