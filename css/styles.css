@@ -46,6 +46,7 @@ img {
   --light-mode-color: #F4F4FD;
   --pressed-state-color: #404BBF;
   --blue-button: #4d5ae5;
+  --title-light: #e7e9fc;
 }
 
 body {
@@ -218,7 +219,6 @@ body {
   text-align: center;
   color: var(--dark-color);
   margin-bottom: 72px;
-
 }
 
 .title-text-on {
@@ -248,6 +248,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 
 .weblogofooter {
@@ -299,10 +300,13 @@ body {
 
 .section-team {
   background-color: var(--light-mode-color);
+  padding: 120px 0;
 }
 
 .catalog {
   background-color: var(--white-background-color);
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px;
 }
 
 .footer-bag {
@@ -336,15 +340,20 @@ body {
   letter-spacing: 0.04em;
   background-color: var(--light-mode-color);
   color: var(--primary-brand-color);
+  padding: 12px 24px;
+  border: 1px solid var(--title-light);
+  border-radius: 4px;
 }
 
 .btn-portfolio:hover {
   background-color: var(--pressed-state-color);
   color: var(--white-background-color);
+  border: 1px solid transparent;
 }
 .btn-portfolio:focus {
   background-color: var(--pressed-state-color);
   color: var(--white-background-color);
+  border: 1px solid transparent;
 }
 
 .adres-portfolio {
@@ -408,5 +417,56 @@ body {
 .list-back {
   display: flex; 
   gap: 24px;
+}
+
+.list-back-content {
   width: calc((100% - 48px) / 3);
+}
+
+.page-catalog {
+  display: flex;
+  gap: 24px; 
+}
+
+.name-person {
+  padding: 32px 16px;
+}
+
+.title-text-on {
+  text-align: center; 
+  margin-bottom: 8px;
+}
+
+.title-text {
+  text-align: center;
+}
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.section-portfolio-spese {
+  display: flex;
+  justify-content: center; 
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap; 
+  column-gap: 24px;
+  row-gap: 48px; 
+}
+
+.portfolio-content-spase {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-title {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+
 }
