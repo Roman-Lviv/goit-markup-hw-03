@@ -83,6 +83,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
+  padding: 24px 0;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -95,6 +96,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text-color);
+  margin-left: auto;
 }
 
 .adres-menu {
@@ -289,7 +291,6 @@ body {
 }
 
 .section-what {
-  background-color: var(--light-mode-color);
   padding-bottom: 120px;
 
 }
@@ -374,7 +375,7 @@ body {
 
 .heder-past {
   display: flex; 
-  padding: 0 15px;
+  align-items: center;
 }
 
 .menu {
@@ -432,7 +433,7 @@ body {
 }
 
 .title-text {
-  text-align: center;
+
 }
 
 .section-portfolio {
