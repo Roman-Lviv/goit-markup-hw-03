@@ -290,9 +290,12 @@ body {
   max-width: 264px;
 }
 
+.section-two{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .section-what {
   padding-bottom: 120px;
-
 }
 
 .section-team {
@@ -433,7 +436,7 @@ body {
 }
 
 .title-text {
-
+  text-align: center;
 }
 
 .section-portfolio {
