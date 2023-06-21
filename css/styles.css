@@ -184,6 +184,7 @@ body {
   color: var(--dark-color);
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .hero-menu:focus {
