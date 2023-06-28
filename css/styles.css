@@ -142,8 +142,6 @@ body {
 .section-hero {
   background: var(--dark-color);
   padding: 188px 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .btn-hero {
@@ -159,6 +157,8 @@ body {
   border: none;
   background-color: var(--blue-button); 
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-hero:hover {
@@ -178,6 +178,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--white-background-color);
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-menu {
